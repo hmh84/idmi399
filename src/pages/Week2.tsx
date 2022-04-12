@@ -97,8 +97,8 @@ export default function Week2() {
 						menu button.
 					</li>
 					<li>
-						Don't read over or explain nav and footer links leading
-						to the current page.
+						Clarify nav and footer links leading to the current
+						page. Use aria-current="page"
 					</li>
 
 					<div className='list-section-title'>HOMEPAGE</div>
@@ -121,6 +121,11 @@ export default function Week2() {
 					<li>
 						Nested buttons should be links not buttons because the
 						navigate to a different URL
+					</li>
+					<li>
+						Project blocks the screen reader says the View and
+						GitHub button titles too quickly. It sounds like "View
+						GitHub" as in one button, but there are two buttons.
 					</li>
 
 					<div className='list-section-title'>CONTACT</div>
@@ -163,6 +168,12 @@ export default function Week2() {
 						important to make the reading of a website succinct but
 						also helpful. Two modes: 1. entering a site 2. tabbing
 						thru content.
+					</p>
+					<p>
+						Nice to have high level groups (header, navigation, ad,
+						main content, footer) read aloud first, with the option
+						to tab into them before deep diving into all its
+						contents getting into that area.
 					</p>
 				</ul>
 			</section>
