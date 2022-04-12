@@ -169,12 +169,12 @@ export default function Week2() {
 						also helpful. Two modes: 1. entering a site 2. tabbing
 						thru content.
 					</p>
-					<p>
+					<li>
 						Nice to have high level groups (header, navigation, ad,
 						main content, footer) read aloud first, with the option
 						to tab into them before deep diving into all its
 						contents getting into that area.
-					</p>
+					</li>
 				</ul>
 			</section>
 		</>
