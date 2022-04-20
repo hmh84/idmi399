@@ -21,7 +21,7 @@ export default function Week4() {
 					browser with css media queries.
 				</p>
 				<ul>
-					<li>@media (prefers-reduced-motion: reduce) {}</li>
+					<li>@media (prefers-reduced-motion: reduce)</li>
 					<p>Used the css media query to stop all css transitions.</p>
 					<li>usePrefersReducedMotion()</li>
 					<p>
