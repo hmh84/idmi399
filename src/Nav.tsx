@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Week1 from './pages/Week1';
 import Week2 from './pages/Week2';
+import Week3 from './pages/Week3';
 
 interface RouteObj {
 	path: string;
@@ -25,6 +26,11 @@ const routes: RouteObj[] = [
 		path: '/week-2',
 		name: 'Week 2',
 		main: Week2,
+	},
+	{
+		path: '/week-3',
+		name: 'Week 3',
+		main: Week3,
 	},
 ];
 
