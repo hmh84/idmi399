@@ -163,6 +163,19 @@ export default function Week5() {
 					screen reader programs
 				</p>
 			</section>
+
+			<section>
+				<p>TODO's:</p>
+				<ul>
+					<li>
+						Responsive navigation menu w/ screen reader support.
+					</li>
+					<li>Test pages on Safari, FireFox, and Edge</li>
+					<li>
+						Try to figure out how to stop "Website web content busy"
+					</li>
+				</ul>
+			</section>
 		</>
 	);
 }
