@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { Box } from '@mui/material';
+import { CSSProperties, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Week1 from './pages/Week1';
@@ -7,6 +8,7 @@ import Week3 from './pages/Week3';
 import Week4 from './pages/Week4';
 import Week5 from './pages/Week5';
 import Week6 from './pages/Week6';
+import Week7 from './pages/Week7';
 
 interface RouteObj {
 	path: string;
@@ -50,7 +52,19 @@ const routes: RouteObj[] = [
 		name: 'Week 6',
 		main: Week6,
 	},
+	{
+		path: '/week-7',
+		name: 'Week 7',
+		main: Week7,
+	},
 ];
+
+const linkStyle: CSSProperties = {
+	color: 'black',
+	textDecoration: 'underline',
+	padding: '1rem 0',
+	textAlign: 'center',
+};
 
 const isDev = !process.env.NODE_ENV || process.env.NODE_ENV === 'development';
 
@@ -74,26 +88,50 @@ export default function Nav() {
 						flexDirection: 'column',
 					}}
 				>
-					{routes.map((route) => (
-						<Link
-							key={route.path}
-							to={route.path}
-							style={{
-								color: 'black',
-								textDecoration: 'underline',
-								padding: '1rem 0',
-								textAlign: 'center',
-								...(path === route.path && {
-									textDecoration: 'none',
-									backgroundColor: 'black',
-									color: 'white',
-								}),
-							}}
-							onClick={() => setPath(route.path)}
-						>
-							{route.name}
-						</Link>
-					))}
+					{routes.map((route) => {
+						const style: CSSProperties = {
+							...linkStyle,
+							...(path === route.path && {
+								textDecoration: 'none',
+								backgroundColor: 'black',
+								color: 'white',
+							}),
+						};
+						return (
+							<Link
+								key={route.path}
+								to={{ pathname: route.path }}
+								style={style}
+								onClick={() => setPath(route.path)}
+							>
+								{route.name}
+							</Link>
+						);
+					})}
+					<Box
+						sx={{
+							width: '100%',
+							height: '0.25rem',
+							bgcolor: 'black',
+							my: 1,
+						}}
+					/>
+					<a
+						href='http://projects.hunterham.digital/drexel/idmi399/website-pre-accessibility'
+						style={linkStyle}
+						target='_blank'
+						rel='noreferrer'
+					>
+						Pre-Accessibility
+					</a>
+					<a
+						href='https://hunterham.digital'
+						style={linkStyle}
+						target='_blank'
+						rel='noreferrer'
+					>
+						Post-Accessibility
+					</a>
 				</nav>
 
 				<Routes>

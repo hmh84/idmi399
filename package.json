@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build GENERATE_SOURCEMAP=false",
-		"upload": "scp -r ./build/* root@hunterham.digital:/var/www/html/drexel/idmi399/",
+		"upload": "scp -r ./build/* root@projects.hunterham.digital:/var/www/html/drexel/idmi399/",
 		"deploy": "npm run build && npm run upload"
 	},
 	"dependencies": {
