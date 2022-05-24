@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export default function Week6() {
+export default function Week7() {
 	return (
 		<>
 			<section>

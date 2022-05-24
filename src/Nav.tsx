@@ -9,6 +9,7 @@ import Week4 from './pages/Week4';
 import Week5 from './pages/Week5';
 import Week6 from './pages/Week6';
 import Week7 from './pages/Week7';
+import Week8 from './pages/Week8';
 
 interface RouteObj {
 	path: string;
@@ -56,6 +57,11 @@ const routes: RouteObj[] = [
 		path: '/week-7',
 		name: 'Week 7',
 		main: Week7,
+	},
+	{
+		path: '/week-8',
+		name: 'Week 8',
+		main: Week8,
 	},
 ];
 
@@ -125,7 +131,7 @@ export default function Nav() {
 						Pre-Accessibility
 					</a>
 					<a
-						href='https://hunterham.digital'
+						href='http://projects.hunterham.digital/drexel/idmi399/website-post-accessibility'
 						style={linkStyle}
 						target='_blank'
 						rel='noreferrer'
