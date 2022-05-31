@@ -1,4 +1,3 @@
-import { Box } from '@mui/material';
 import { CSSProperties, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
@@ -15,13 +14,26 @@ interface RouteObj {
 	path: string;
 	name: string;
 	main: () => JSX.Element;
+	external?: boolean;
 }
 
 const routes: RouteObj[] = [
 	{
 		path: '/',
-		name: 'Home',
+		name: 'Case Study',
 		main: Home,
+	},
+	{
+		path: 'http://projects.hunterham.digital/drexel/idmi399/website-pre-accessibility',
+		name: 'Pre-Accessibility',
+		main: () => <></>,
+		external: true,
+	},
+	{
+		path: 'http://projects.hunterham.digital/drexel/idmi399/website-post-accessibility',
+		name: 'Post-Accessibility',
+		main: () => <></>,
+		external: true,
 	},
 	{
 		path: '/week-1',
@@ -103,7 +115,7 @@ export default function Nav() {
 								color: 'white',
 							}),
 						};
-						return (
+						return !route.external ? (
 							<Link
 								key={route.path}
 								to={{ pathname: route.path }}
@@ -112,32 +124,18 @@ export default function Nav() {
 							>
 								{route.name}
 							</Link>
+						) : (
+							<a
+								key={route.path}
+								href={route.path}
+								style={style}
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								{route.name}
+							</a>
 						);
 					})}
-					<Box
-						sx={{
-							width: '100%',
-							height: '0.25rem',
-							bgcolor: 'black',
-							my: 1,
-						}}
-					/>
-					<a
-						href='http://projects.hunterham.digital/drexel/idmi399/website-pre-accessibility'
-						style={linkStyle}
-						target='_blank'
-						rel='noreferrer'
-					>
-						Pre-Accessibility
-					</a>
-					<a
-						href='http://projects.hunterham.digital/drexel/idmi399/website-post-accessibility'
-						style={linkStyle}
-						target='_blank'
-						rel='noreferrer'
-					>
-						Post-Accessibility
-					</a>
 				</nav>
 
 				<Routes>
