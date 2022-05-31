@@ -9,7 +9,9 @@ export default function Home() {
 				}}
 			>
 				{`
-Intro:
+INTRO
+====================
+
 - My major did not offer a dedicated class for accessibility in web development.
 - I decided to do an independent study to further my knowledge in this area, as it is becoming increasingly important.
 
@@ -20,7 +22,9 @@ Use the navigation on the left to see progress, change history, notes, and more 
 Disclaimer:
 There are some changes such as the different graphic and the phrases within the typewriter that shouldn't be considered in this project, these were just additional personal changes I wanted to make.
 
-Problems Identified:
+PROBLEMS IDENTIFIED
+====================
+
 OVERALL
 
 - Randomly keeps saying: "website content activity busy"
@@ -48,6 +52,9 @@ CONTACT PAGE
 - Screen reader doesn't know the "Message received" modal appears when sending a contact message.
 - "Message received" modal "Return Home" button needs to be a link button instead.
 
+WORK
+====================
+
 Section 1: Home Page / Nav
 - [video] Compare typewriter effect.
 - Nav links announce "visited link" and "current item"
@@ -64,12 +71,14 @@ Section 3: Contact Page
 - Custom 450/500 chars remaining aria label for utility.
 - Modal trap focus using the NPM package, aria live is okay here because it needs to announce the modal/new focus.
 
-Conclusion:
+CONCLUSION
+====================
+
 - Never sacrificed features, styles, or functionality.
 - Semantic HTML should always be used to allow the browser to handle it. Only use aria-label when you have very customized components that are not native HTML tags.
 - Minimally code invasive as most changes are replacing tags and restructuring elements, rather than adding more code.
 
-My suggestions for paired OS and screen-reader.
+[My suggestions for paired OS and screen-reader]
 
 [Links to pre and post comparison]
 `}
