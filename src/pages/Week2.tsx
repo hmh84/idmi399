@@ -16,12 +16,10 @@ export default function Week2() {
 						<p>Key takeaways:</p>
 						<ul>
 							<li>
-								Global we accessibility improvement is
+								Global website accessibility improvement is
 								progressing but at a very slow rate.
 							</li>
-							<div className='list-section-title'>
-								5 most common WCAG failure:
-							</div>
+							<p>5 most common WCAG failure:</p>
 							<ol>
 								<li>Low contrast text</li>
 								<li>Missing alternative text for images</li>
@@ -38,9 +36,9 @@ export default function Week2() {
 								only of div's, the screen reader would skip it
 								entirely without aria attributes.
 							</li>
-							<div className='list-section-title'>
+							<p>
 								Top 5 worst WCAG compliant website categories:
-							</div>
+							</p>
 							<ol>
 								<li>Shopping</li>
 								<li>Real Estate</li>
@@ -90,7 +88,7 @@ export default function Week2() {
 				</p>
 				<p>Accessibility Findings:</p>
 				<ul>
-					<div className='list-section-title'>OVERALL</div>
+					<p>OVERALL</p>
 					<li>
 						Randomly keeps saying: "website content activity busy"
 					</li>
@@ -104,7 +102,7 @@ export default function Week2() {
 						page. Use aria-current="page"
 					</li>
 
-					<div className='list-section-title'>HOMEPAGE</div>
+					<p>HOMEPAGE</p>
 					<li>
 						When tabbing onto the nav bar, it should say "Global
 						navigation" not just "navigation" since it's a global
@@ -116,7 +114,7 @@ export default function Week2() {
 					</li>
 					<li>Icon links need descriptions.</li>
 
-					<div className='list-section-title'>WALL</div>
+					<p>WALL</p>
 					<li>
 						Tabbing goes thru all options twice. 1st round goes thru
 						all the sub- buttons, 2nd round goes thru the boxes.
@@ -131,7 +129,7 @@ export default function Week2() {
 						GitHub" as in one button, but there are two buttons.
 					</li>
 
-					<div className='list-section-title'>CONTACT</div>
+					<p>CONTACT</p>
 					<li>
 						Send button doesn't get read when it is disabled. It
 						should probly still be read over, but described as
@@ -157,7 +155,7 @@ export default function Week2() {
 				</ul>
 			</section>
 			<section>
-				<p>Notes:</p>
+				<p>NOTES</p>
 				<ul>
 					<li>New accessibility checker tool: Axe DevTools.</li>
 					<p>

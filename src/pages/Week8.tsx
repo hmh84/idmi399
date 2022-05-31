@@ -27,13 +27,13 @@ export default function Week8() {
 				</ul>
 			</section>
 			<section>
-				<p>RESEARCH & Testing</p>
-				<ul>
-					<li>Recommended browser & screen-reader combinations</li>
-					<p>Voiceover w/ Safari</p>
-					<p>JAWS (or NVDA) w/ Chrome and Edge</p>
-					<p>NVDA w/ Firefox</p>
-				</ul>
+				<p>RESEARCH & TESTING</p>
+				<p>Recommended browser & screen-reader combinations</p>
+				<ol>
+					<li>Voiceover w/ Safari</li>
+					<li>JAWS (or NVDA) w/ Chrome and Edge</li>
+					<li>NVDA w/ Firefox</li>
+				</ol>
 				<p>
 					I didn't include Internet Explorer (IE) here because support
 					is being dropped in June 2022. Replaced by Edge which has a

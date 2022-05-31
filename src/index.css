@@ -28,13 +28,3 @@ h6,
 p {
 	margin: 0;
 }
-
-.list-section-title:first-of-type {
-	margin-top: 0;
-}
-
-.list-section-title {
-	font-weight: bold;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}

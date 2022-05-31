@@ -61,7 +61,7 @@ export default function Week4() {
 			</section>
 
 			<section>
-				<p>Notes:</p>
+				<p>NOTES</p>
 				<ul>
 					<li>Using role='list'</li>
 					<p>

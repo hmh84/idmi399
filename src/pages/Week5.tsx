@@ -115,29 +115,6 @@ export default function Week5() {
 			</section>
 
 			<section>
-				<p>Notes:</p>
-				<ul>
-					<li>Using role='list'</li>
-					<p>
-						Used to signify a list that isn't a ul or ol tag. It
-						also says how many items are in the list before entering
-						it.
-					</p>
-					<li>Using role='listitem'</li>
-					<p>
-						Used to signify items within a list that aren't an li
-						tag.
-					</p>
-					<li>Using ::focus-within</li>
-					<p>
-						Helpful css sudo-class that detects when you're focused
-						on the element itself or any child element. Useful for
-						custom styling.
-					</p>
-				</ul>
-			</section>
-
-			<section>
 				<p>Aria-live:</p>
 				<ul>
 					<li>

@@ -4,29 +4,26 @@ export default function Week1() {
 	return (
 		<>
 			<section>
-				<p>This week I created a guide for the term:</p>
+				<p>Project timeline:</p>
 				<ul>
-					<li>Week 1: Term planning</li>
+					<li>Week 1: Term planning, topic research.</li>
 					<li>
 						Week 2: Research accessibility diagnostic tools/methods.
-						Decide on final website to redo.
-					</li>
-					<li>Week 3: Diagnose website of choice</li>
-					<li>
-						Week 4: Research & attempt making varying media work for
-						screen readers
+						Define and diagnose website to improve.
 					</li>
 					<li>
-						Week 5: Research & attempt making varying media work for
-						screen readers
+						Week 3: Research ARIA. Address Home page and Nav issues.
 					</li>
 					<li>
-						Week 6: Create accessibility evaluation & proposal for
-						updates
+						Week 4: Research ARIA. Address Projects "Wall" page
+						issues. Respect reduced motion setting.
 					</li>
-					<li>Week 7: Work on final website</li>
-					<li>Week 8: Work on final website</li>
-					<li>Week 9: Work on final website</li>
+					<li>Week 5: Research ARIA. Address Contact page issues.</li>
+					<li>Week 6: Refinement.</li>
+					<li>Week 7: Archive existing site. Domain changes.</li>
+					<li>Week 8: Archive new and improved site.</li>
+					<li>Week 9: Case study.</li>
+					<li>Week 9: Case study.</li>
 				</ul>
 			</section>
 			<section>
