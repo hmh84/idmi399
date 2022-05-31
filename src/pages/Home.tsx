@@ -23,31 +23,30 @@ There are some changes such as the different graphic and the phrases within the 
 Problems Identified:
 OVERALL
 
-Randomly keeps saying: "website content activity busy"
-Nav links shouldn't be read if in mobile view since it's hidden, instead describe the purpose of the hamburger menu button.
+- Randomly keeps saying: "website content activity busy"
+- Nav links shouldn't be read if in mobile view since it's hidden, instead describe the purpose of the hamburger menu button.
 Clarify nav and footer links leading to the current page. Use aria-current="page"
 
 HOME PAGE
 
-When tabbing onto the nav bar, it should say "Global navigation" not just "navigation" since it's a global component.
-Screen readers get stuck on the decorative CLI effect because the words change.
-Icon links need descriptions.
+- When tabbing onto the nav bar, it should say "Global navigation" not just "navigation" since it's a global component.
+- Screen readers get stuck on the decorative CLI effect because the words change.
+- Icon links need descriptions.
 
 WALL PAGE
 
-Tabbing goes thru all options twice. 1st round goes thru all the sub- buttons, 2nd round goes thru the boxes.
-Nested buttons should be links not buttons because the navigate to a different URL
-Project blocks the screen reader says the View and GitHub button titles too quickly. It sounds like "View GitHub" as in one button, but there are two buttons.
+- Tabbing goes thru all options twice. 1st round goes thru all the sub- buttons, 2nd round goes thru the boxes.
+- Nested buttons should be links not buttons because the navigate to a different URL
+- Project blocks the screen reader says the View and GitHub button titles too quickly. It sounds like "View GitHub" as in one button, but there are two buttons.
 
 CONTACT PAGE
 
-Send button doesn't get read when it is disabled. It should probly still be read over, but described as
-disabled because the form is invalid.
-Describe the container div as a form.
-Inputs just read placeholder or value if present. Needs to read the label (Name, Email, etc.)
-Screen reader doesn't recognize/call out you've reached max input.
-Screen reader doesn't know the "Message received" modal appears when sending a contact message.
-"Message received" modal "Return Home" button needs to be a link button instead.
+- Send button doesn't get read when it is disabled. It should probly still be read over, but described as disabled because the form is invalid.
+- Describe the container div as a form.
+- Inputs just read placeholder or value if present. Needs to read the label (Name, Email, etc.)
+- Screen reader doesn't recognize/call out you've reached max input.
+- Screen reader doesn't know the "Message received" modal appears when sending a contact message.
+- "Message received" modal "Return Home" button needs to be a link button instead.
 
 Section 1: Home Page / Nav
 - [video] Compare typewriter effect.
