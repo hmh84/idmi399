@@ -9,6 +9,7 @@ import Week5 from './pages/Week5';
 import Week6 from './pages/Week6';
 import Week7 from './pages/Week7';
 import Week8 from './pages/Week8';
+import Week9 from './pages/Week9';
 
 interface RouteObj {
 	path: string;
@@ -74,6 +75,11 @@ const routes: RouteObj[] = [
 		path: '/week-8',
 		name: 'Week 8',
 		main: Week8,
+	},
+	{
+		path: '/week-9',
+		name: 'Week 9',
+		main: Week9,
 	},
 ];
 
