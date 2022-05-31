@@ -102,7 +102,7 @@ export default function Week2() {
 						page. Use aria-current="page"
 					</li>
 
-					<p>HOMEPAGE</p>
+					<p>HOME PAGE</p>
 					<li>
 						When tabbing onto the nav bar, it should say "Global
 						navigation" not just "navigation" since it's a global
@@ -114,7 +114,7 @@ export default function Week2() {
 					</li>
 					<li>Icon links need descriptions.</li>
 
-					<p>WALL</p>
+					<p>WALL PAGE</p>
 					<li>
 						Tabbing goes thru all options twice. 1st round goes thru
 						all the sub- buttons, 2nd round goes thru the boxes.
@@ -129,7 +129,7 @@ export default function Week2() {
 						GitHub" as in one button, but there are two buttons.
 					</li>
 
-					<p>CONTACT</p>
+					<p>CONTACT PAGE</p>
 					<li>
 						Send button doesn't get read when it is disabled. It
 						should probly still be read over, but described as
