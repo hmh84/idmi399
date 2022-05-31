@@ -7,15 +7,13 @@ export default function Week8() {
 				<p>ARCHIVED SITE</p>
 				<ul>
 					<li>Archived the post access. site to a subdomain</li>
-					<Link
+					<a
+						rel='noreferrer'
 						target='_blank'
-						to={{
-							pathname:
-								'http://projects.hunterham.digital/drexel/idmi399/website-post-accessibility',
-						}}
+						href='http://projects.hunterham.digital/drexel/idmi399/website-post-accessibility'
 					>
 						Post-Accessibility Site
-					</Link>
+					</a>
 					<p>
 						Turned existing Digital Ocean Droplet into a subdomain
 						for project FTP storage.
@@ -41,14 +39,13 @@ export default function Week8() {
 					is being dropped in June 2022. Replaced by Edge which has a
 					recommendation above.
 				</p>
-				<Link
+				<a
+					rel='noreferrer'
 					target='_blank'
-					to={{
-						pathname: 'https://death-to-ie11.com/',
-					}}
+					href='https://death-to-ie11.com/'
 				>
 					Countdown to IE's Death
-				</Link>
+				</a>
 			</section>
 		</>
 	);
