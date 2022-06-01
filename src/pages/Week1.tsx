@@ -5,26 +5,78 @@ export default function Week1() {
 		<>
 			<section>
 				<p>Project timeline:</p>
-				<ul>
-					<li>Week 1: Term planning, topic research.</li>
-					<li>
-						Week 2: Research accessibility diagnostic tools/methods.
-						Define and diagnose website to improve.
-					</li>
-					<li>
-						Week 3: Research ARIA. Address Home page and Nav issues.
-					</li>
-					<li>
-						Week 4: Research ARIA. Address Projects "Wall" page
-						issues. Respect reduced motion setting.
-					</li>
-					<li>Week 5: Research ARIA. Address Contact page issues.</li>
-					<li>Week 6: Refinement.</li>
-					<li>Week 7: Archive existing site. Domain changes.</li>
-					<li>Week 8: Archive new and improved site.</li>
-					<li>Week 9: Case study.</li>
-					<li>Week 9: Case study.</li>
-				</ul>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<b>Week 1</b>
+							</td>
+							<td>Term planning, topic research.</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Week 2</b>
+							</td>
+							<td>
+								Research accessibility diagnostic tools/methods.
+								Define and diagnose website to improve.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Week 3</b>
+							</td>
+							<td>
+								Research ARIA. Address Home page and Nav issues.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Week 4</b>
+							</td>
+							<td>
+								Research ARIA. Address Projects "Wall" page
+								issues. Respect reduced motion setting.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Week 5</b>
+							</td>
+							<td>Research ARIA. Address Contact page issues.</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Week 6</b>
+							</td>
+							<td>Refinement.</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Week 7</b>
+							</td>
+							<td>Archive existing site. Domain changes.</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Week 8</b>
+							</td>
+							<td>Archive new and improved site.</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Week 9</b>
+							</td>
+							<td>Case study outline.</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Week 10</b>
+							</td>
+							<td>Case study copy.</td>
+						</tr>
+					</tbody>
+				</table>
 			</section>
 			<section>
 				<p>Articles:</p>
