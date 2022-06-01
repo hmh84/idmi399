@@ -74,7 +74,7 @@ export default function Week4() {
 						Used to signify items within a list that aren't an li
 						tag.
 					</p>
-					<li>Using ::focus-within</li>
+					<li>Using :focus-within</li>
 					<p>
 						Helpful css sudo-class that detects when you're focused
 						on the element itself or any child element. Useful for
