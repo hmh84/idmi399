@@ -86,7 +86,7 @@ const routes: RouteObj[] = [
 const linkStyle: CSSProperties = {
 	color: 'black',
 	textDecoration: 'underline',
-	padding: '1rem 0',
+	padding: '1rem 0.5rem',
 	textAlign: 'center',
 };
 
@@ -106,7 +106,6 @@ export default function Nav() {
 			<Router basename={isDev ? '' : '/drexel/idmi399'}>
 				<nav
 					style={{
-						width: 200,
 						backgroundColor: '#EFEFEF',
 						display: 'flex',
 						flexDirection: 'column',
@@ -160,7 +159,10 @@ export default function Nav() {
 										style={{
 											flex: 1,
 											backgroundColor: 'white',
-											padding: '1rem',
+											padding:
+												route.path === '/'
+													? undefined
+													: '1rem',
 										}}
 									>
 										<route.main />

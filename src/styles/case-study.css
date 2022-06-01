@@ -1,0 +1,91 @@
+:root {
+	--dark-gray: rgb(46, 46, 46);
+	--light-gray: #999;
+	--accent: #4f65f3;
+}
+
+.case-study {
+	/* background-color: var(--dark-gray); */
+	/* color: white; */
+}
+
+.case-study h2,
+.case-study h3,
+.case-study h4,
+.case-study p,
+.case-study a,
+.case-study ol,
+.case-study ul,
+.case-study .video-compare,
+.case-study table {
+	margin-bottom: 1rem;
+}
+
+.case-study section {
+	padding: 1rem;
+}
+
+.case-study section:nth-child(even) {
+	background-color: var(--accent);
+	color: white;
+}
+
+.case-study h3 {
+	width: 100%;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.case-study h4 {
+	font-size: 1.5rem;
+}
+
+.case-study h2,
+.case-study h2,
+.case-study h4 {
+	font-weight: bold;
+}
+
+.comparison-link-wrapper a {
+	color: var(--accent);
+	padding: 0.5rem 0.75rem;
+	text-decoration: none;
+}
+
+.comparison-link-wrapper a:hover {
+	background-color: var(--accent);
+	color: white;
+}
+
+/* VIDEOS */
+
+.video-compare {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+.video-compare .video-compare-block {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.video-compare-block p {
+	flex-grow: 1;
+	color: white;
+	margin: 0 !important;
+}
+
+video {
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}

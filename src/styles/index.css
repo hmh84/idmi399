@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body,
+#root {
+	width: 100vw;
+	min-height: 100vh;
+}
+
+body {
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: white;
+	color: black;
+}
+
+td,
+th {
+	border: 1px solid var(--light-gray);
+	padding: 0.5rem;
+	text-align: left;
+}
+
+code {
+	font-size: 0.75rem;
+	padding: 0.1rem 0.2rem;
+	background-color: #00000010;
+	border-radius: 0.2rem;
+}
