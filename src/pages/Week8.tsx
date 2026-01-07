@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 export default function Week8() {
 	return (
 		<>
@@ -10,7 +8,7 @@ export default function Week8() {
 					<a
 						rel='noreferrer'
 						target='_blank'
-						href='http://projects.hunterham.digital/drexel/idmi399/website-post-accessibility'
+						href='https://hmh84.github.io/idmi399/website-post-accessibility'
 					>
 						Post-Accessibility Site
 					</a>

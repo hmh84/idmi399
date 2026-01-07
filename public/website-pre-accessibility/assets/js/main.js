@@ -6,8 +6,8 @@ const projects = [
 		desc: 'A fun WebVR FPS with controls, cheats, sounds, and more.',
 		tech: 'Three.JS, Blender',
 		cta: [
-			{ label: 'Play', link: '/drexel/idm331/final' },
-			{ label: 'Case Study', link: '/drexel/idm331/casestudy' },
+			{ label: 'Play', link: '/idm331/final' },
+			{ label: 'Case Study', link: '/idm331/casestudy' },
 		],
 	},
 	{
@@ -41,7 +41,7 @@ const projects = [
 		cta: [
 			{
 				label: 'View',
-				link: '/drexel/idm216/final/month-ride-history.php',
+				link: '/idm216/final/month-ride-history.php',
 			},
 			{
 				label: 'GitHub',
@@ -64,7 +64,7 @@ const projects = [
 		desc: 'This is a coloring book, but optimized to the fullest.',
 		tech: 'NPM, PHP',
 		cta: [
-			{ label: 'View', link: '/drexel/idmt380' },
+			{ label: 'View', link: '/idmt380' },
 			{
 				label: 'GitHub',
 				link: 'https://github.com/mgabriele1/idmt380',
@@ -78,7 +78,7 @@ const projects = [
 		desc: 'Redesigning interactions found in Grammarly.',
 		tech: 'CSS, JS',
 		cta: [
-			{ label: 'View', link: '/drexel/idm241/final/build' },
+			{ label: 'View', link: '/idm241/final/build' },
 			{ label: 'GitHub', link: 'https://github.com/hmh84/idm241' },
 		],
 	},

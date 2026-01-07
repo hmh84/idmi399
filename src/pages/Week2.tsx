@@ -81,7 +81,7 @@ export default function Week2() {
 					Chosen Final:{' '}
 					<Link
 						target='_blank'
-						href='http://projects.hunterham.digital/drexel/idmi399/website-pre-accessibility'
+						href='https://hmh84.github.io/idmi399/website-pre-accessibility'
 					>
 						My own website (pre-accessibility)
 					</Link>

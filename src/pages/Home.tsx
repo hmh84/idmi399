@@ -11,7 +11,7 @@ const ComparisonLinks = () => {
 			}}
 		>
 			<a
-				href='http://projects.hunterham.digital/drexel/idmi399/website-pre-accessibility/'
+				href='https://hmh84.github.io/idmi399/website-pre-accessibility'
 				target='_blank'
 				rel='noopener noreferrer'
 				style={{ marginRight: '1rem' }}
@@ -19,7 +19,7 @@ const ComparisonLinks = () => {
 				View Pre-Accessibility
 			</a>
 			<a
-				href='http://projects.hunterham.digital/drexel/idmi399/website-post-accessibility/'
+				href='https://hmh84.github.io/idmi399/website-post-accessibility'
 				target='_blank'
 				rel='noopener noreferrer'
 			>
