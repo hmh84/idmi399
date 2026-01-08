@@ -8,7 +8,7 @@ export default function Week8() {
 					<a
 						rel='noreferrer'
 						target='_blank'
-						href='https://hmh84.github.io/idmi399/website-post-accessibility'
+						href='https://projects.hunterham.digital/drexel/idmi399/website-post-accessibility'
 					>
 						Post-Accessibility Site
 					</a>

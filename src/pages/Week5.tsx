@@ -8,12 +8,6 @@ export default function Week5() {
 					This week I worked on making the contact page screen-reader
 					accessible and publishing the site live:
 				</p>
-				<Link
-					target='_blank'
-					href='https://idm-i399-eglo8.ondigitalocean.app'
-				>
-					Live Site
-				</Link>
 				<p>FORM</p>
 				<ul>
 					<li>

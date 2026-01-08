@@ -25,13 +25,13 @@ const routes: RouteObj[] = [
 		main: Home,
 	},
 	{
-		path: 'https://hmh84.github.io/idmi399/website-pre-accessibility',
+		path: 'https://projects.hunterham.digital/drexel/idmi399/website-pre-accessibility',
 		name: 'Pre-Accessibility',
 		main: () => <></>,
 		external: true,
 	},
 	{
-		path: 'https://hmh84.github.io/idmi399/website-post-accessibility',
+		path: 'https://projects.hunterham.digital/drexel/idmi399/website-post-accessibility',
 		name: 'Post-Accessibility',
 		main: () => <></>,
 		external: true,
@@ -103,7 +103,7 @@ export default function Nav() {
 				minHeight: '100vh',
 			}}
 		>
-			<Router basename={isDev ? '' : '/idmi399'}>
+			<Router basename={isDev ? '' : '/drexel/idmi399'}>
 				<nav
 					style={{
 						backgroundColor: '#EFEFEF',
