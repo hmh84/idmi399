@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class=" no-touch">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -30,62 +30,42 @@
         </script>
     <script type="text/javascript" src="../assets/js/main.js" defer=""></script>
     <script defer="">
-        const current_page = 'contact';
+        const current_page = 'wall';
         const dirPrefix = '../';
     </script>
 </head>
 
-<body class="contact_page">
+<body class="wall_page">
     <div id="nav_button">
         <span class="shadow" id="nav_span_1"></span>
         <span class="shadow" id="nav-span-2"></span>
     </div>
     <nav style="right: -100%;">
-        <a id="nav_web_title" href="https://hmh84.github.io/idmi399/website-pre-accessibility/">
+        <a id="nav_web_title" href="https://hunterham.digital/drexel/idmi399/website-pre-accessibility/">
             <li>Hunter H Digital</li>
         </a>
         <div id="nav_links">
             <a class="only_on_mobile"
-                href="https://hmh84.github.io/idmi399/website-pre-accessibility/">
+                href="https://hunterham.digital/drexel/idmi399/website-pre-accessibility/">
                 <li class="nav-item">home</li>
             </a>
-            <a href="https://hmh84.github.io/idmi399/website-pre-accessibility/wall">
-                <li class="nav-item">wall</li>
+            <a href="https://hunterham.digital/drexel/idmi399/website-pre-accessibility/wall">
+                <li class="nav-item" id="current_page">wall</li>
             </a>
             <!-- <a href="skills">
             <li class="nav-item">skills</li>
         </a> -->
-            <a href="https://hmh84.github.io/idmi399/website-pre-accessibility/contact">
-                <li class="nav-item" id="current_page">contact</li>
+            <a href="https://hunterham.digital/drexel/idmi399/website-pre-accessibility/contact">
+                <li class="nav-item">contact</li>
             </a>
         </div>
     </nav>
-    <div class="modal shadow" style="display: none">
-        <div class="message_sent">
-            <h1>You're message has been received.</h1>
-            <p>It will be responded to at the soonest convenience.</p>
-            <button class="cta" onclick="window.location.href='../'">Return Home</button>
-        </div>
-    </div>
-
     <main>
-        <h1 class="page_title">Contact</h1>
-        <p class="page-subtitle">Get in touch</p>
-        <form id="contact_form" class="contact_form">
-            <div class="contact_row">
-                <input class="input half" type="text" name="name" placeholder="Name" maxlength="25" pattern="[a-zA-Z]*"
-                    required="">
-                <input class="input half" type="text" name="email" placeholder="Email" maxlength="30" required="">
-            </div>
-            <input class="input full" type="text" name="subject" placeholder="Subject" maxlength="50" autocomplete="off"
-                required="">
-            <textarea class="input full" name="message" placeholder="Message (500 Characters Max)" maxlength="500"
-                autocomplete="off" required="" style="min-height: 116px;"></textarea>
-            <div>
-            </div><button class="cta" onclick="document.querySelector('.modal').style.display='flex'">
-                Send
-            </button>
-        </form>
+        <h1 class="page_title">The Wall</h1>
+        <p class="page-subtitle">Featured work</p>
+        <div class="wall_container">
+            <!-- Work is populated by scripts -->
+        </div>
     </main>
 
     <div id="graphical">
@@ -98,7 +78,7 @@
             class="flip"></span><span class="flip"></span><span class="flip"></span><span class="flip"></span><span
             class="flip"></span>
     </div>
-    <footer style="position: fixed;">
+    <footer style="position: unset;">
         Hunter H Digital
         <div class="social_icons_container">
             <a class="social_icon" target="_blank" href="https://www.linkedin.com/in/hunter-hampton">
@@ -120,6 +100,7 @@
     </footer>
 
 
+    <script src="chrome-extension://hhojmcideegachlhfgfdhailpfhgknjm/web_accessible_resources/index.js"></script>
 </body>
 
 </html>
