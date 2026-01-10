@@ -92,17 +92,20 @@ const linkStyle: CSSProperties = {
 
 const isDev = !process.env.NODE_ENV || process.env.NODE_ENV === 'development';
 const hostname = window.location.hostname;
+const pathname = window.location.pathname;
 let routerBasename = '';
 
 if (isDev) {
 	routerBasename = '';
 } else if (hostname === 'projects.hunterham.digital') {
-	routerBasename = '/drexel/idmi399/website-post-accessibility';
+	routerBasename = '/drexel/idmi399';
 } else if (hostname === 'hmh84.github.io') {
-	routerBasename = '/website-projects/drexel/idmi399/website-post-accessibility';
-} else {
-	routerBasename = '/build';
+	routerBasename = '/website-projects/drexel/idmi399';
+} else if (pathname.endsWith('/build') || pathname.endsWith('/build/')) {
+	routerBasename = pathname.split('/build')[0];
 }
+
+console.log({ routerBasename });
 
 export default function Nav() {
 	const [path, setPath] = useState(window.location.pathname);
