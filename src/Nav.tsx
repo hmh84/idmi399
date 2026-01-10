@@ -91,6 +91,18 @@ const linkStyle: CSSProperties = {
 };
 
 const isDev = !process.env.NODE_ENV || process.env.NODE_ENV === 'development';
+const hostname = window.location.hostname;
+let routerBasename = '';
+
+if (isDev) {
+	routerBasename = '';
+} else if (hostname === 'projects.hunterham.digital') {
+	routerBasename = '/drexel/idmi399/website-post-accessibility';
+} else if (hostname === 'hmh84.github.io') {
+	routerBasename = '/website-projects/drexel/idmi399/website-post-accessibility';
+} else {
+	routerBasename = '/build';
+}
 
 export default function Nav() {
 	const [path, setPath] = useState(window.location.pathname);
@@ -103,7 +115,7 @@ export default function Nav() {
 				minHeight: '100vh',
 			}}
 		>
-			<Router basename={isDev ? '' : '/drexel/idmi399'}>
+			<Router basename={routerBasename}>
 				<nav
 					style={{
 						backgroundColor: '#EFEFEF',
