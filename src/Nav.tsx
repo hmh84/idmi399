@@ -100,7 +100,7 @@ if (isDev) {
 } else if (hostname === 'projects.hunterham.digital') {
 	routerBasename = '/drexel/idmi399';
 } else if (hostname === 'hmh84.github.io') {
-	routerBasename = '/website-projects/drexel/idmi399';
+	routerBasename = '/website-projects-subdomain/drexel/idmi399';
 } else if (pathname.endsWith('/build') || pathname.endsWith('/build/')) {
 	routerBasename = pathname.split('/build')[0];
 }
